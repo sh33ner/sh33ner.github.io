@@ -4,7 +4,9 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+I wanted to put myself out there, and start trying to keep track of some of what I do that can be public facing. 
+
+I don't profess to know the exact way these things should be (some of it may actually be wrong), but hopefully this helps someone. 
 
 ### More Information
 
