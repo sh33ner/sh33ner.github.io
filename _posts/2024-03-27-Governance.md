@@ -3,7 +3,7 @@ layout: post
 title: The Knife Versus The Meat Slicer
 ---
 
-Imagine for a second that you own a deli, and that your method of slicing meat at this deli is with a tried and true knife that is perfectly sharp and which you have sliced thousands of meats with. Business starts to pick up, and I can see you're not getting as much done as you could. I come to you with a meat slicer that allows you to slice 4 or 5 times the amount of meat with perfect consistency just like your knife. You now have the capacity to increase business, the speed of delivery, without sacrificing the quality you used to use with your trusted knife. And then you say, "I can't use that slicer." 
+Imagine for a second that you own a deli, and that your method of slicing meat is with a single knife which you have sliced thousands of meats with. Business starts to pick up. I come to you with a meat slicer that will slice 4 or 5 times the amount of meat with the same consistency as your knife. I bring this shiny new tool, and then you say, "I can't use that slicer." 
 
 "Why", I ask?
 
