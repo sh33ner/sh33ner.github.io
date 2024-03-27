@@ -22,6 +22,17 @@ It would seem ridiculous to not try the meat slicer, but we tend to look at any 
 In my world with Adobe Experience Manager, the number one place I see this kind of thinking block progress is with deployments and moving to a CI/CD process. What are the details that an organization gets focused on maintaining, and what is the "give-and-take" that has to take place for an organization to move forward with a good CI/CD process? 
 
 ## 1. Release Cadence
+Although it's obvious, many organizations never have a discussion internally when using a CI/CD process about changing their actual release cadence. They may move to using CI/CD pipelines, but may still be required to only deploy to production once every two weeks. 
+
+So what gives? Why would this happen? 
+
+Because the people running deployments in a CI/CD pipeline have not proven yet that they can be trusted doing more frequent changes. If you're in an organization that deploys to production on Fridays, and every Friday night people are working late because of errors in a deployment, no one in the right mind would let you run one every day. Your CI/CD process is going to have to be build up a lot of credibility. Well, how is someone supposed to do that?
+
+
+## 2. Testing
+The key is to focus on pro-active work, rather than re-active. Pro-active work means writing such smart automated testing, that it will block any problems with a deployment. That's the only way to help an organization build confidence enough to let a CI/CD process run either daily or on every commit to production.
+
+
 
 ## 2. Testing
 
