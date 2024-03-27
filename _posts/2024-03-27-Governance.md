@@ -3,17 +3,15 @@ layout: post
 title: Governance and CI/CD Pipelines
 ---
 
-## Equivalent Products
+## The Knife Versus The Meat Slicer
 
 Imagine for a second that you own a deli, and that your method of slicing meat at this deli is with a tried and true knife that is perfectly sharp and which you have sliced thousands of meats with. Business starts to pick up, and I can see you're not getting as much done as you could. I come to you with a meat slicer that allows you to slice 4 or 5 times the amount of meat with perfect consistency just like your knife. You now have the capacity to increase business, the speed of delivery, without sacrificing the quality you used to use with your trusted knife. And then you say, "I can't use that slicer." 
 
 "Why", I ask?
 
-"Because the blade on it isn't straight. It's a circle."
+"Because the blade on it isn't straight. It's a circle." 
 
-This is a metaphor for what's happening across organizations that are suddenly confronted with the opportunity of using CI/CD pipelines to increase the efficiency, reliability, and quality of deployments. 
-
-Richard Hamming (best known for his work on error-detecting and error-codes) wrote in his book "The Art of Doing Science and Engineering: Learning to Learn":
+It would seem ridiculous to not try the meat slicer, but we tend to look at any machine or system that automates a task the same way. Richard Hamming addressed this same idea in his book "The Art of Doing Science and Engineering: Learning to Learn". He wrote:
 
 >When we first passed from hand accounting to machine accounting we found it necessary, for economical reasons if no other, to somewhat alter the accounting system. Similarly, when we passed from strict hand fabrication to machine fabrication we passed from mainly screws and bolts to rivets and welding.
 >
@@ -21,7 +19,12 @@ Richard Hamming (best known for his work on error-detecting and error-codes) wro
 >
 >Indeed, one of the major items in the conversion from hand to machine production is the imaginative redesign of **an equivalent product**. Thus in thinking of mechanizing a large organization, it won’t work if you try to keep things in detail exactly the same, rather there must be a larger give-and-take if there is to be a significant success.
 
+In my world with Adobe Experience Manager, the number one place I see this kind of thinking block progress is with deployments and moving to a CI/CD process. What are the details that an organization gets focused on maintaining, and what is the "give-and-take" that has to take place for an organization to move forward with a good CI/CD process? 
 
+## 1. Release Cadence
 
+## 2. Testing
 
+## 3. Controlling the Wild West
 
+## Conclusion
