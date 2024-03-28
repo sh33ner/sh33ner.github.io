@@ -3,13 +3,13 @@ layout: post
 title: The Knife Versus The Meat Slicer
 ---
 
-Imagine for a second that you own a deli, and that your method of slicing meat is with a single knife which you have sliced thousands of meats with. Business starts to pick up. I come to you with a meat slicer that will slice 4 or 5 times the amount of meat with the same consistency as your knife. I bring this shiny new tool, and then you say, "I can't use that slicer." 
+Imagine for a second that you own a deli, and your method of slicing meat is with a single knife. I come to you with a meat slicer that will slice much more meat with the same consistency as your knife. I bring this shiny new tool, and then you say, "I can't use that slicer." 
 
 "Why", I ask?
 
-"Because the blade on it isn't straight. It's a circle." 
+"Because the blade on it isn't straight. It's a circle. It requires power, and it's not as easy to clean." 
 
-It would seem ridiculous to not try the meat slicer, but we tend to look at any machine or system that automates a task the same way. Richard Hamming addressed this same idea in his book "The Art of Doing Science and Engineering: Learning to Learn". He wrote:
+If you have the demand to produce more cuts, it would seem ridiculous to not try the meat slicer.  However, we tend to look at any machine or system that automates a task the same way. In "The Art of Doing Science and Engineering: Learning to Learn", Richard Hamming wrote:
 
 >When we first passed from hand accounting to machine accounting we found it necessary, for economical reasons if no other, to somewhat alter the accounting system. Similarly, when we passed from strict hand fabrication to machine fabrication we passed from mainly screws and bolts to rivets and welding.
 >
@@ -17,7 +17,7 @@ It would seem ridiculous to not try the meat slicer, but we tend to look at any 
 >
 >Indeed, one of the major items in the conversion from hand to machine production is the imaginative redesign of **an equivalent product**. Thus in thinking of mechanizing a large organization, it won’t work if you try to keep things in detail exactly the same, rather there must be a larger give-and-take if there is to be a significant success.
 
-In my world with Adobe Experience Manager, the number one place I see this kind of thinking block progress is with deployments and moving to a CI/CD process. What are the details that an organization gets focused on maintaining, and what is the "give-and-take" that has to take place for an organization to move forward with a good CI/CD process? 
+In my world with Adobe Experience Manager, the number one place I see this kind of thinking block progress is with the CI/CD process. What are the details that an organization gets focused on maintaining, and what is the "give-and-take" that has to take place for an organization to move forward with a good CI/CD process? 
 
 ## 1. Release Cadence
 Although it's obvious, many organizations never have a discussion internally when using a CI/CD process about changing their actual release cadence. They may move to using CI/CD pipelines, but may still be required to only deploy to production once every two weeks. 
