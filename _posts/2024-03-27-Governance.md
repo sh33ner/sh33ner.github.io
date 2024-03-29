@@ -1,39 +1,17 @@
 ---
 layout: post
-title: The Knife Versus The Meat Slicer
+title: Airplanes vs Birds
 ---
+In my work with AEM as a Cloud Service, one of the frequent topics of discussion with organizations is on the best practices for deployments. This process has drastically changed in the last 9 years, and I think I have seen every concievable device used for managing deployments. Everyone has their own schedule, regulations, and ideas on how these are supposed to work. Adobe has cosnistently driven towards giving customers the ability to deploy as regularly and reliably as they can according to their own time frame. Sounds pretty great to me.
 
-Imagine for a second that you own a deli, and your method of slicing meat is with a single knife. I come to you with a meat slicer that will slice much more meat with the same consistency as your knife. I bring this shiny new tool, and then you say, "I can't use that slicer." 
-
-"Why", I ask?
-
-"Because the blade on it isn't straight. It's a circle. It requires power, and it's not as easy to clean." 
-
-If you have the demand to produce more cuts, it would seem ridiculous to not try the meat slicer.  However, we tend to look at any machine or system that automates a task the same way. In "The Art of Doing Science and Engineering: Learning to Learn", Richard Hamming wrote:
+Then why is this so frequently discussed? I think one reason is because many organizations just look at the release process, transpose their current deployment method into Cloud Manager and call it good. The problem is that using a CI/CD pipeline for deployments is not simply automating the deployment. It's not just deploying a package using the curl commands for crx package manager. There's quote that demonstrates this problem. In "The Art of Doing Science and Engineering: Learning to Learn", Richard Hamming wrote:
 
 >When we first passed from hand accounting to machine accounting we found it necessary, for economical reasons if no other, to somewhat alter the accounting system. Similarly, when we passed from strict hand fabrication to machine fabrication we passed from mainly screws and bolts to rivets and welding.
 >
->**It has rarely proved practical to produce exactly the same product by machines as we produced by hand.**
+>It has rarely proved practical to produce exactly the same product by machines as we produced by hand.
 >
->Indeed, one of the major items in the conversion from hand to machine production is the imaginative redesign of **an equivalent product**. Thus in thinking of mechanizing a large organization, it won’t work if you try to keep things in detail exactly the same, rather there must be a larger give-and-take if there is to be a significant success.
+>Indeed, one of the major items in the conversion from hand to machine production is the imaginative redesign of an equivalent product. Thus in thinking of mechanizing a large organization, it won’t work if you try to keep things in detail exactly the same, rather there must be a larger give-and-take if there is to be a significant success.
 
-In my world with Adobe Experience Manager, the number one place I see this kind of thinking block progress is with the CI/CD process. What are the details that an organization gets focused on maintaining, and what is the "give-and-take" that has to take place for an organization to move forward with a good CI/CD process? 
+The automation of the deployment for AEM as a Cloud Service requires there to be a "larger give-and-take if there is to be significant success." 
 
-## 1. Release Cadence
-Although it's obvious, many organizations never have a discussion internally when using a CI/CD process about changing their actual release cadence. They may move to using CI/CD pipelines, but may still be required to only deploy to production once every two weeks. 
-
-So what gives? Why would this happen? 
-
-Because the people running deployments in a CI/CD pipeline have not proven yet that they can be trusted doing more frequent changes. If you're in an organization that deploys to production on Fridays, and every Friday night people are working late because of errors in a deployment, no one in the right mind would let you run one every day. Your CI/CD process is going to have to be build up a lot of credibility. Well, how is someone supposed to do that?
-
-
-## 2. Testing
-The key is to focus on pro-active work, rather than re-active. Pro-active work means writing such smart automated testing, that it will block any problems with a deployment. That's the only way to help an organization build confidence enough to let a CI/CD process run either daily or on every commit to production.
-
-
-
-## 2. Testing
-
-## 3. Controlling the Wild West
-
-## Conclusion
+So what does that mean? And what can I share that can help you in this?
