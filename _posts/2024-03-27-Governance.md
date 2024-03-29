@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Airplanes vs Birds
+title: Screws and Rivets
 ---
 In my work with AEM as a Cloud Service, one of the frequent topics of discussion with organizations is on the best practices for deployments. This process has drastically changed in the last 9 years, and I think I have seen every concievable device used for managing deployments. Everyone has their own schedule, regulations, and ideas on how these are supposed to work. Adobe has cosnistently driven towards giving customers the ability to deploy as regularly and reliably as they can according to their own time frame. Sounds pretty great to me.
 
