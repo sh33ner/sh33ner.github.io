@@ -1,17 +1,12 @@
 ---
 layout: post
-title: Screws and Rivets
+title: Questions about Deploying to AEM
 ---
-In my work with AEM as a Cloud Service, one of the frequent topics of discussion with organizations is on the best practices for deployments. This process has drastically changed in the last 9 years, and I think I have seen every concievable device used for managing deployments. Everyone has their own schedule, regulations, and ideas on how these are supposed to work. Adobe has cosnistently driven towards giving customers the ability to deploy as regularly and reliably as they can according to their own time frame. Sounds pretty great to me.
+In my 8 years of working with AEM, deployments have been a significant part of that work. I have worked with a lot of organizations either handling the deployments directly, or helping them with Cloud Manager. There has been a tremendous effort to minimize the work created by deployments by introducing a CI/CD process to AEM. If you are trying to figure out how best to handle deployments into AEM, there are some things you need to consider.
 
-Then why is this so frequently discussed? I think one reason is because many organizations just look at the release process, transpose their current deployment method into Cloud Manager and call it good. The problem is that using a CI/CD pipeline for deployments is not simply automating the deployment. It's not just deploying a package using the curl commands for crx package manager. There's quote that demonstrates this problem. In "The Art of Doing Science and Engineering: Learning to Learn", Richard Hamming wrote:
+## Automated deployments are a redesign of an equivalent outcome.
+If you read the documentation about Cloud Manager on Adobe Managed Services, and Cloud Manager on AEM as a Cloud Service, you should notice that the two processes are very different. One CI/CD process deploys to a running instance that almost never goes down, and another builds an immutable image to run in containers that are rebuilt on every full-stack deployment. Why does this matter? It matters because the difference has an impact on business timelines, deployment windows, "rollbacks", and every other factor related to pushing code into production.
 
->When we first passed from hand accounting to machine accounting we found it necessary, for economical reasons if no other, to somewhat alter the accounting system. Similarly, when we passed from strict hand fabrication to machine fabrication we passed from mainly screws and bolts to rivets and welding.
->
->It has rarely proved practical to produce exactly the same product by machines as we produced by hand.
->
->Indeed, one of the major items in the conversion from hand to machine production is the imaginative redesign of an equivalent product. Thus in thinking of mechanizing a large organization, it won’t work if you try to keep things in detail exactly the same, rather there must be a larger give-and-take if there is to be a significant success.
+The key distinction between AEM deployments vs AEM as a Cloud Service, in my opinion, is that Cloud Manager deployments on AEM as a Cloud Service is the only method that provides an opportunity to validate that the business requirements of a deployment are met. How does it do that? With custom functional and UI testing. If a devops engineer runs a deployment, the only concern they have after a deployment has completed is if the instances are up, the bundles are started, and the site is available. However, the whole point of deploying new code is to see new code. If you are using custom functional and UI testing you can verify that everything is functional on the stage environment, and if it's not the deployment doesn't move forward **because the business requirements weren't verified**. 
 
-The automation of the deployment for AEM as a Cloud Service requires there to be a "larger give-and-take if there is to be significant success." 
 
-So what does that mean? And what can I share that can help you in this?
