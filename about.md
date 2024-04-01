@@ -7,7 +7,7 @@ This blog is an effort to share some ideas about effectively managing complex sy
 
 My work experience has largely been what it has been because of my education at Brigham Young University. There I recieved a B.S in Information Technology and a M.S in Technology where my thesis was on cyber security education. Occassionally, I present in the IT 391R seminar series on topics similar to what you may find here. 
 
-If you have any questions, feel free to reach out. I hope something on this blog is found useful.
+If you have any questions, feel free to reach out.
 
 
 ### Contact me
