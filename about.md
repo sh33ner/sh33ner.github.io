@@ -3,9 +3,12 @@ layout: page
 title: About
 permalink: /about/
 ---
-This blog is an effort to share some ideas about effectively managing complex systems. In my career, I have worked with hundreds of people across the globe in a number of different projects. I've worked in QA teams, infrastructure teams, Adobe Managed Services, and now as a CSME for AEM as a Cloud Service. 
+This blog is an effort to share some ideas about effectively managing complex systems. In my career, I have worked with hundreds of people across the globe in a number of different projects. I've worked in QA teams, infrastructure teams, Adobe Managed Services, and now as a CSME for AEM as a Cloud Service. Through all of those experiences, I've learned that managing systems is much more than just maintaining a SLA, but about building confidence in the teams trusted to deliver excellence.
 
-I recieved a bachelor's of science degree in Information Technology at Brigham Young University (2011), and a master's of science degree in Technology (2015) from there as well. My master's thesis focused on cyber security education. Through all of these different experiences and opportunities, I've learned how fulfilling it can be to work with teams to successfully manage a complex system. I hope that something I can share will be of value.
+My work experience has largely been what it has been because of my education at Brigham Young University. There I recieved a B.S in Information Technology and a M.S in Technology where my thesis was on cyber security education. Occassionally, I present in the IT 391R seminar series on topics similar to what you may find here. 
+
+If you have any questions, feel free to reach out. I hope something on this blog is found useful.
+
 
 ### Contact me
 
