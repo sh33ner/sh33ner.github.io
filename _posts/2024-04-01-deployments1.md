@@ -6,7 +6,7 @@ If you are an organization using AEM as a Cloud Service, there are a number of i
 
 First, what does your organization consider a successful deployment? Is it just that the service is up and running when the deployment is finished? Most likely not. A good deployment means there's no errors during the execution, all the services start, and the features and improvments work as expected. 
 
-AEM as a Cloud Service is very good at having deployments complete successfully, but what if the features or improvements aren't quite right, or broken? How do you address that scenario? What are the options?
+AEM as a Cloud Service is very good at having deployments complete successfully, but what if the features or improvements aren't quite right, or broken? How do you address that scenario? I think the reactive options are:
 
 1. Fail forward with a hotfix
 2. Rollback the deployment
