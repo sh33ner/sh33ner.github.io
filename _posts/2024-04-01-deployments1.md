@@ -2,7 +2,7 @@
 layout: post
 title: What is a successful deployment?
 ---
-If you are an organization on AEM as a Cloud Service there are some key distinctions about deployments that need to be carefully considered. Instead of running as monolithic VMs, AEM as a Cloud Service builds immutable images that can be deployed instantly to auto-scale and self-heal. This means a code deployment is building images, not deploying packages one after another. That means that if you deploy to production, you can't just uninstall a package or go to a previous version of a package on every instance. You need the last successfully deployed code to be running.
+If you are an organization on AEM as a Cloud Service there are some key distinctions about deployments that need to be carefully considered. Instead of running as monolithic VMs, AEM as a Cloud Service builds immutable images that can be deployed instantly to auto-scale and self-heal. This means a code deployment is building images, not deploying packages one after another. That means that if you deploy non-working code to production, you can't just uninstall a package or go to a previous version of a package on every instance. You need the last successfully deployed code to be running.
 
 If you think about this, it should get you to raise a number of questions that I'm going to explore in this and future posts. 
 
