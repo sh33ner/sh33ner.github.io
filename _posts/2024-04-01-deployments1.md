@@ -1,12 +1,12 @@
 ---
 layout: post
-title: Deployments (Part 1)
+title: What is a successful deployment?
 ---
-If you are an organization using AEM as a Cloud Service, there are a number of items regarding deployments that need to be carefully thought through. You may have years of experience with AEM deployments, but because AEM as a Cloud Service is a significant redesign it can't be thought of the same way. In this series of posts, I'm going to cover some of the key points that have to be considered for an AEM as a Cloud Service migration to be successful
+If you are an organization using AEM as a Cloud Service there are a number of items regarding deployments that need to be carefully considered. Instead of running as a monolithic VM, AEM as a Cloud Service builds immutable images that can be deployed instantly to auto-scale and self-heal. This means a code deployment is building images, not just deploying packages one after another. With those as key principles, it changes how you should consider whether a deployment was successful or not. 
 
-First, what does your organization consider a successful deployment? Is it just that the service is up and running when the deployment is finished? Most likely not. A good deployment means there's no errors during the execution, all the services start, and the features and improvments work as expected. 
+The first question to consider is what does your organization consider a successful deployment? Is it just that the service is up and running when the deployment is finished? Most likely not. A good deployment means there's no errors during the execution, all the services start, **and** the features and improvments work as expected. 
 
-AEM as a Cloud Service is very good at having deployments complete successfully, but what if the features or improvements aren't quite right, or broken? How do you address that scenario? I think the reactive options are:
+AEM as a Cloud Service is very good at having deployments complete successfully, but what if the features or improvements aren't quite right, or broken? Someone running the deployment is good, but if the business owners say things aren't fixed how do you address that scenario? I think the reactive options are:
 
 1. Fail forward with a hotfix
 2. Rollback the deployment
