@@ -1,8 +1,0 @@
----
-layout: post
-title: Thoughts on Best Practices for AEM as a Cloud Service
----
-As a Cloud Subject Matter Expert (CSME) for AEM as a Cloud Service, one of the topics I provide value on for customers is helping understand the devops cloud-native functions and best practices of the platform. I spend a lot of effort and time in this area because there is so much value to be had by adopting the best practices for AEM as a Cloud Service. The problem is they require a pretty big mental leap if you ran AEM on-premise or as a Managed Service, and if you have any vision about what's currently happening with [Edge Delivery Services](https://business.adobe.com/blog/perspectives/how-hanesbrands-and-adobe-built-one-of-the-fastest-ecommerce-websites-in-the-world) you can see that there is a significant opportunity here to re-evaluate how you do things in preparation for the future. I'm not going to detail all of the best practices as these are well documented on Experience League, but I do want to call out in this post *why* some of them are best practices, and why they are important to adopt in preparation for future opportunities.
-
-First-building out robust testing. In my early days with AEM, code deployments in AEM varied in quality. To overcome this, Adobe introduced Cloud Manager to offer a CI/CD method for deploying into AEM and included a set of SonarQube rules purpose built for AEM projects. Additionally, a performance test was included to validate that the performane was consistent. This was a big improvement in increasing the quality of code deployed to AEM. With AEM as a Cloud Service, Adobe also added the ability to run custom functional and UI testing after the deployment to automate smoke-testing. 
-
